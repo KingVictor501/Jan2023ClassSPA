@@ -1,5 +1,7 @@
 #jumbotron {
-  background: url(assets/img/photo-1528334713982-2d1fe11a157a.jpg) center center no-repeat;  background-size: cover;
+  background: url(assets/img/photo-1528334713982-2d1fe11a157a.jpg) center center
+    no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -63,11 +65,12 @@ footer {
   text-align: left;
 }
 
-#pizzas td,th {
+#pizzas td,
+th {
   width: 25%;
 }
 
-@media (max-width: 549px){
+@media (max-width: 549px) {
   .hidden--mobile {
     display: none !important;
   }
